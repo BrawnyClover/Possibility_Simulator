@@ -1,0 +1,16 @@
+c:\users\sonbi\documents\visual studio 2015\Projects\GrindingEx\GrindingEx\bin\Debug\GrindingEx.exe.config
+c:\users\sonbi\documents\visual studio 2015\Projects\GrindingEx\GrindingEx\obj\Debug\GrindingEx.csprojResolveAssemblyReference.cache
+c:\users\sonbi\documents\visual studio 2015\Projects\GrindingEx\GrindingEx\obj\Debug\MainWindow.baml
+c:\users\sonbi\documents\visual studio 2015\Projects\GrindingEx\GrindingEx\obj\Debug\MainWindow.g.cs
+c:\users\sonbi\documents\visual studio 2015\Projects\GrindingEx\GrindingEx\obj\Debug\App.g.cs
+c:\users\sonbi\documents\visual studio 2015\Projects\GrindingEx\GrindingEx\obj\Debug\GrindingEx_MarkupCompile.cache
+c:\users\sonbi\documents\visual studio 2015\Projects\GrindingEx\GrindingEx\obj\Debug\GrindingEx.g.resources
+c:\users\sonbi\documents\visual studio 2015\Projects\GrindingEx\GrindingEx\obj\Debug\GrindingEx.Properties.Resources.resources
+c:\users\sonbi\documents\visual studio 2015\Projects\GrindingEx\GrindingEx\obj\Debug\GrindingEx.csproj.GenerateResource.Cache
+c:\users\sonbi\documents\visual studio 2015\Projects\GrindingEx\GrindingEx\bin\Debug\GrindingEx.exe
+c:\users\sonbi\documents\visual studio 2015\Projects\GrindingEx\GrindingEx\bin\Debug\GrindingEx.pdb
+c:\users\sonbi\documents\visual studio 2015\Projects\GrindingEx\GrindingEx\obj\Debug\GrindingEx.exe
+c:\users\sonbi\documents\visual studio 2015\Projects\GrindingEx\GrindingEx\obj\Debug\GrindingEx.pdb
+c:\users\sonbi\documents\visual studio 2015\Projects\GrindingEx\GrindingEx\obj\Debug\GrindingEx_MarkupCompile.lref
+C:\Users\sonbi\documents\visual studio 2015\Projects\GrindingEx\GrindingEx\obj\Debug\Window1.g.cs
+C:\Users\sonbi\documents\visual studio 2015\Projects\GrindingEx\GrindingEx\obj\Debug\Window1.baml

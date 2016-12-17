@@ -1,0 +1,18 @@
+﻿<Window x:Class="GrindingEx.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GrindingEx"
+        mc:Ignorable="d"
+        Title="Window1" Height="500" Width="700">
+    <Grid>
+
+        <ScrollViewer x:Name="scrollViewer" HorizontalScrollBarVisibility="Visible" VerticalScrollBarVisibility="Visible" >
+            <Canvas Grid.Row="0" Name="Plotter" ClipToBounds="True" Height="3000" Width="3200" Background="#FFD2D2D2" />
+        </ScrollViewer>
+        <TextBox x:Name="position" HorizontalAlignment="Left" Height="23" Margin="12,363,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="273"/>
+        <TextBox x:Name="positionC" HorizontalAlignment="Left" Height="23" Margin="12,329,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="198"/>
+
+    </Grid>
+</Window>
