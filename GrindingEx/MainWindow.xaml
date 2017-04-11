@@ -5,22 +5,41 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GrindingEx"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="540">
+        Title="MainWindow" Height="400" Width="540">
     <Grid Background="White">
-        <TextBox x:Name="textPoint" HorizontalAlignment="Left" Height="23" Margin="56,63,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="textRight" HorizontalAlignment="Left" Height="23" Margin="55,221,0,0" TextWrapping="Wrap" Text="25" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="textLeft" HorizontalAlignment="Left" Height="23" Margin="56,190,0,0" TextWrapping="Wrap" Text="25" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="textDown" HorizontalAlignment="Left" Height="23" Margin="56,147,0,0" TextWrapping="Wrap" Text="25" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="textUp" HorizontalAlignment="Left" Height="23" Margin="56,104,0,0" TextWrapping="Wrap" Text="25" VerticalAlignment="Top" Width="120"/>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="17,62,0,0" TextWrapping="Wrap" Text="점" VerticalAlignment="Top" Height="24" Width="28"/>
-        <TextBlock x:Name="textBlock_Copy1" HorizontalAlignment="Left" Margin="17,221,0,0" TextWrapping="Wrap" Text="우" VerticalAlignment="Top" Height="24" Width="28"/>
-        <TextBlock x:Name="textBlock_Copy2" HorizontalAlignment="Left" Margin="17,190,0,0" TextWrapping="Wrap" Text="좌" VerticalAlignment="Top" Height="24" Width="28"/>
-        <TextBlock x:Name="textBlock_Copy3" HorizontalAlignment="Left" Margin="17,146,0,0" TextWrapping="Wrap" Text="하" VerticalAlignment="Top" Height="24" Width="28"/>
-        <TextBlock x:Name="textBlock_Copy4" HorizontalAlignment="Left" Margin="17,103,0,0" TextWrapping="Wrap" Text="상" VerticalAlignment="Top" Height="24" Width="28"/>
-        <Button x:Name="button" Content="실행" HorizontalAlignment="Left" Margin="61,291,0,0" VerticalAlignment="Top" Width="103" Height="34" Click="button_Click"/>
-        <TextBox x:Name="num" HorizontalAlignment="Left" Height="24" Margin="40,26,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="44"/>
-        <TextBox x:Name="textNum" HorizontalAlignment="Left" Height="23" Margin="53,254,0,0" TextWrapping="Wrap" Text="3" VerticalAlignment="Top" Width="120"/>
-        <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" Margin="16,254,0,0" TextWrapping="Wrap" Text="번" VerticalAlignment="Top" Height="24" Width="28"/>
+        <TextBox x:Name="textPoint" HorizontalAlignment="Left" Height="23" Margin="54,39,0,0" TextWrapping="Wrap" Text="unusable" VerticalAlignment="Top" Width="120" GotFocus="Text_MouseDown"/>
+        <TextBox x:Name="textUp" HorizontalAlignment="Left" Height="23" Margin="54,69,0,0" TextWrapping="Wrap" Text="25" VerticalAlignment="Top" Width="26" GotFocus="Text_MouseDown"/>
+        <TextBox x:Name="textDown" HorizontalAlignment="Left" Height="23" Margin="54,99,0,0" TextWrapping="Wrap" Text="25" VerticalAlignment="Top" Width="26" GotFocus="Text_MouseDown"/>
+        <TextBox x:Name="textLeft" HorizontalAlignment="Left" Height="23" Margin="54,129,0,0" TextWrapping="Wrap" Text="25" VerticalAlignment="Top" Width="26" GotFocus="Text_MouseDown"/>
+        <TextBox x:Name="textRight" HorizontalAlignment="Left" Height="23" Margin="54,159,0,0" TextWrapping="Wrap" Text="25" VerticalAlignment="Top" Width="26" GotFocus="Text_MouseDown"/>
+        <TextBox x:Name="textNum" HorizontalAlignment="Left" Height="23" Margin="54,189,0,0" TextWrapping="Wrap" Text="3" VerticalAlignment="Top" Width="26" GotFocus="Text_MouseDown"/>
+
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="26,40,0,0" TextWrapping="Wrap" Text="점" VerticalAlignment="Top" Height="24" Width="28" GotFocus="Text_MouseDown"/>
+        <TextBlock x:Name="textBlock_Copy1" HorizontalAlignment="Left" Margin="26,159,0,0" TextWrapping="Wrap" Text="우" VerticalAlignment="Top" Height="24" Width="28"/>
+        <TextBlock x:Name="textBlock_Copy2" HorizontalAlignment="Left" Margin="26,130,0,0" TextWrapping="Wrap" Text="좌" VerticalAlignment="Top" Height="24" Width="28"/>
+        <TextBlock x:Name="textBlock_Copy3" HorizontalAlignment="Left" Margin="26,101,0,0" TextWrapping="Wrap" Text="하" VerticalAlignment="Top" Height="24" Width="28"/>
+        <TextBlock x:Name="textBlock_Copy4" HorizontalAlignment="Left" Margin="26,70,0,0" TextWrapping="Wrap" Text="상" VerticalAlignment="Top" Height="24" Width="28"/>
+        <Button x:Name="button" Content="실행" HorizontalAlignment="Left" Margin="90,308,0,0" VerticalAlignment="Top" Width="88" Height="34" Click="button_Click"/>
+        <TextBox x:Name="num" HorizontalAlignment="Left" Height="24" Margin="13,7,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="44"/>
+        <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" Margin="26,189,0,0" TextWrapping="Wrap" Text="번" VerticalAlignment="Top" Height="24" Width="28"/>
+        <ScrollViewer x:Name="scrollViewer" HorizontalScrollBarVisibility="Visible" VerticalScrollBarVisibility="Visible" Margin="188,15,8.333,54.667" >
+            <Canvas Grid.Row="0" Name="Plotter" ClipToBounds="True" Height="32000" Width="32000" Background="#FFD2D2D2" />
+        </ScrollViewer>
+        <TextBox x:Name="position" HorizontalAlignment="Left" Height="48" Margin="13,255,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="167"/>
+        <TextBox x:Name="positionC" HorizontalAlignment="Left" Height="23" Margin="13,225,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="167"/>
+        <CheckBox x:Name="checkBox" Content="숫자표시" HorizontalAlignment="Left" Margin="13,310,0,0" VerticalAlignment="Top" Height="16" Width="71" Checked="checkBox_Checked" Unchecked="checkBox_Checked" IsChecked="True"/>
+        <TextBlock x:Name="textBlock_Copy5" HorizontalAlignment="Left" Margin="80,72,0,0" TextWrapping="Wrap" Text="%" VerticalAlignment="Top" Height="24" Width="28"/>
+        <TextBlock x:Name="textBlock_Copy6" HorizontalAlignment="Left" Margin="80,101,0,0" TextWrapping="Wrap" Text="%" VerticalAlignment="Top" Height="24" Width="28"/>
+        <TextBlock x:Name="textBlock_Copy7" HorizontalAlignment="Left" Margin="80,132,0,0" TextWrapping="Wrap" Text="%" VerticalAlignment="Top" Height="24" Width="28"/>
+        <TextBlock x:Name="textBlock_Copy8" HorizontalAlignment="Left" Margin="80,161,0,0" TextWrapping="Wrap" Text="%" VerticalAlignment="Top" Height="24" Width="28"/>
+        <TextBox x:Name="cntUp" HorizontalAlignment="Left" Height="23" Margin="102,69,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="26"/>
+        <TextBox x:Name="cntDown" HorizontalAlignment="Left" Height="23" Margin="102,99,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="26"/>
+        <TextBox x:Name="cntLeft" HorizontalAlignment="Left" Height="23" Margin="102,131,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="26"/>
+        <TextBox x:Name="cntRight" HorizontalAlignment="Left" Height="23" Margin="102,159,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="26"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Height="20" Margin="129,76,0,0" TextWrapping="Wrap" Text="회" VerticalAlignment="Top" Width="18"/>
+        <TextBlock x:Name="textBlock1_Copy" HorizontalAlignment="Left" Height="20" Margin="129,107,0,0" TextWrapping="Wrap" Text="회" VerticalAlignment="Top" Width="18"/>
+        <TextBlock x:Name="textBlock1_Copy1" HorizontalAlignment="Left" Height="20" Margin="129,139,0,0" TextWrapping="Wrap" Text="회" VerticalAlignment="Top" Width="18"/>
+        <TextBlock x:Name="textBlock1_Copy2" HorizontalAlignment="Left" Height="20" Margin="129,167,0,0" TextWrapping="Wrap" Text="회" VerticalAlignment="Top" Width="18"/>
 
     </Grid>
 </Window>

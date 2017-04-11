@@ -8,11 +8,6 @@
         Title="Window1" Height="500" Width="700">
     <Grid>
 
-        <ScrollViewer x:Name="scrollViewer" HorizontalScrollBarVisibility="Visible" VerticalScrollBarVisibility="Visible" >
-            <Canvas Grid.Row="0" Name="Plotter" ClipToBounds="True" Height="3000" Width="3200" Background="#FFD2D2D2" />
-        </ScrollViewer>
-        <TextBox x:Name="position" HorizontalAlignment="Left" Height="23" Margin="12,363,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="273"/>
-        <TextBox x:Name="positionC" HorizontalAlignment="Left" Height="23" Margin="12,329,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="198"/>
-
+        
     </Grid>
 </Window>

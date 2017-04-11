@@ -1,0 +1,22 @@
+C:\Users\sonbi\documents\visual studio 2015\Projects\GrindingEx\GrindingEx\bin\Release\GrindingEx.exe.config
+C:\Users\sonbi\documents\visual studio 2015\Projects\GrindingEx\GrindingEx\bin\Release\GrindingEx.exe
+C:\Users\sonbi\documents\visual studio 2015\Projects\GrindingEx\GrindingEx\bin\Release\GrindingEx.pdb
+C:\Users\sonbi\documents\visual studio 2015\Projects\GrindingEx\GrindingEx\obj\Release\MainWindow.g.cs
+C:\Users\sonbi\documents\visual studio 2015\Projects\GrindingEx\GrindingEx\obj\Release\Window1.g.cs
+C:\Users\sonbi\documents\visual studio 2015\Projects\GrindingEx\GrindingEx\obj\Release\App.g.cs
+C:\Users\sonbi\documents\visual studio 2015\Projects\GrindingEx\GrindingEx\obj\Release\GrindingEx_MarkupCompile.cache
+C:\Users\sonbi\documents\visual studio 2015\Projects\GrindingEx\GrindingEx\obj\Release\GrindingEx_MarkupCompile.lref
+C:\Users\sonbi\documents\visual studio 2015\Projects\GrindingEx\GrindingEx\obj\Release\MainWindow.baml
+C:\Users\sonbi\documents\visual studio 2015\Projects\GrindingEx\GrindingEx\obj\Release\Window1.baml
+C:\Users\sonbi\documents\visual studio 2015\Projects\GrindingEx\GrindingEx\obj\Release\GrindingEx.g.resources
+C:\Users\sonbi\documents\visual studio 2015\Projects\GrindingEx\GrindingEx\obj\Release\GrindingEx.Properties.Resources.resources
+C:\Users\sonbi\documents\visual studio 2015\Projects\GrindingEx\GrindingEx\obj\Release\GrindingEx.csproj.GenerateResource.Cache
+C:\Users\sonbi\documents\visual studio 2015\Projects\GrindingEx\GrindingEx\obj\Release\GrindingEx.exe
+C:\Users\sonbi\documents\visual studio 2015\Projects\GrindingEx\GrindingEx\obj\Release\GrindingEx.pdb
+C:\Users\sonbi\documents\visual studio 2015\Projects\GrindingEx\GrindingEx\obj\Release\GrindingEx.csprojResolveAssemblyReference.cache
+E:\BACKUP\Projects\GrindingEx\GrindingEx\bin\Release\GrindingEx.exe.config
+E:\BACKUP\Projects\GrindingEx\GrindingEx\obj\Release\GrindingEx.exe
+E:\BACKUP\Projects\GrindingEx\GrindingEx\obj\Release\GrindingEx.pdb
+D:\BACKUP\개발\Projects\GrindingEx\GrindingEx\bin\Release\GrindingEx.exe.config
+D:\BACKUP\개발\Projects\GrindingEx\GrindingEx\obj\Release\GrindingEx.exe
+D:\BACKUP\개발\Projects\GrindingEx\GrindingEx\obj\Release\GrindingEx.pdb
