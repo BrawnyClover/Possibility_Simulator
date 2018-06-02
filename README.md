@@ -1,4 +1,4 @@
 # Possibility Simulator
 -----------------
-![mainwindow](https://github.com/YuHyun7/Possibility_Simulator/blob/master/possibility.PNG){: width="200" height="200"}
+<img src="https://github.com/YuHyun7/Possibility_Simulator/blob/master/possibility.PNG" width="100" height="100"/>
 Random Walk Theorem Visualization Tool
